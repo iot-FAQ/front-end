@@ -258,8 +258,8 @@ ul{
 .hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {
     -webkit-animation-name: hvr-hang-sink, hvr-hang;
     animation-name: hvr-hang-sink, hvr-hang;
-    -webkit-animation-duration: .3s, 1.5s;
-    animation-duration: .3s, 1.5s;
+    -webkit-animation-duration: .3s, 3s;
+    animation-duration: .3s, 3s;
     -webkit-animation-delay: 0s, .3s;
     animation-delay: 0s, .3s;
     -webkit-animation-timing-function: ease-out, ease-in-out;
@@ -759,8 +759,8 @@ textarea::-ms-input-placeholder{
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    -webkit-animation: loading-center-absolute 1.5s infinite;
-    animation: loading-center-absolute 1.5s infinite;
+    -webkit-animation: loading-center-absolute 3s infinite;
+    animation: loading-center-absolute 3s infinite;
 
 }
 .object{
@@ -772,20 +772,20 @@ textarea::-ms-input-placeholder{
 }
 
 #object_one {
-    -webkit-animation: object_one 1.5s infinite;
-    animation: object_one 1.5s infinite;
+    -webkit-animation: object_one 3s infinite;
+    animation: object_one 3s infinite;
 }
 #object_two {
-    -webkit-animation: object_two 1.5s infinite;
-    animation: object_two 1.5s infinite;
+    -webkit-animation: object_two 3s infinite;
+    animation: object_two 3s infinite;
 }
 #object_three {
-    -webkit-animation: object_three 1.5s infinite;
-    animation: object_three 1.5s infinite;
+    -webkit-animation: object_three 3s infinite;
+    animation: object_three 3s infinite;
 }
 #object_four {
-    -webkit-animation: object_four 1.5s infinite;
-    animation: object_four 1.5s infinite;
+    -webkit-animation: object_four 3s infinite;
+    animation: object_four 3s infinite;
 }
 
 
@@ -960,7 +960,7 @@ Navbar Nav Menu home v2
 .no-background .hv2-main-menu-bg{
     margin-top: 20px;
 }
-nav.navbar.bootsnav ul.nav li > a{
+nav..bootsnav ul.nav li > a{
     padding: 7px 23px;
     border: 1px solid transparent;
     font-weight: normal;
@@ -1494,11 +1494,11 @@ article .comments{
     border: 1px solid #e9e9e9;
     float: left;
     margin: 5px;
-}
+}a
 
 .logo1 {
   height: 100px;
-  width:130px;
+  width:13ф0px;
   padding-top: 0px;
 }
 
