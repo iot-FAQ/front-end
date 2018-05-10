@@ -27,7 +27,66 @@ Author URI: http://www.xpeedstudio.com
     }
 
 }
+@media (min-width: 320px) and (max-width: 380px) {
+h1.start{
+  font-size: 80px;
+}
+.controller-slide {
+  padding-left:0%;
+  overflow: hidden;
+  width:100%;
+}
+.controller-items {
+  display: inline-block;
+  margin-top: 30px;
+    width: 320px;
+}
 
+.conroller-slide .slide{
+  padding: 0px;
+}
+
+}
+@media (min-width: 380px) and (max-width: 420px) {
+h1.start{
+  font-size: 80px;
+}
+.controller-slide {
+  padding-left:0%;
+  overflow: hidden;
+  width:100%;
+}
+.controller-items {
+  display: inline-block;
+  margin-top: 30px;
+    width: 380px;
+}
+
+.conroller-slide .slide{
+  padding: 0px;
+}
+
+}
+@media (min-width: 650px) and (max-width: 780px) {
+h1.start{
+  font-size: 100px;
+}
+.controller-slide {
+  padding-left:0%;
+  overflow: hidden;
+  width:100%;
+}
+.controller-items {
+  display: inline-block;
+  margin-top: 30px;
+    width: 650px;
+}
+
+.conroller-slide .slide{
+  padding: 0px;
+}
+
+}
 
 /* Specialy for menu and slider dots */
 @media (min-width: 992px) and (max-width: 1023px) {
@@ -97,7 +156,7 @@ Author URI: http://www.xpeedstudio.com
 
 
     .grid-item {
-        height: 140px !important; 
+        height: 140px !important;
     }
     .grid-item--height2 { height: 280px !important;}
 
@@ -142,8 +201,8 @@ Author URI: http://www.xpeedstudio.com
     }*/
 
 
-    
-    
+
+
 
 }
 
@@ -169,7 +228,7 @@ Author URI: http://www.xpeedstudio.com
     .grid-item, .grid-sizer {width: 50%;}
     .grid-item--width2 { width: 100%;}
     .grid-item {
-        height: 178px !important; 
+        height: 178px !important;
     }
     .grid-item--height2 { height: 356px !important;}
 

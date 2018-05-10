@@ -1017,6 +1017,9 @@ home banner
 /*controller section*/
 .controller-content{
     position: relative;
+    text-align: center;
+    padding: 30px 40px;
+    padding-bottom: 45%;
 }
 
 .contact-form .btn-default,
@@ -1046,7 +1049,7 @@ home banner
 
 .controller-slide {
     margin-top: -150px;
-    padding-left: 40px;
+    padding-left: 80px;
 }
 
 .controller-slide .slide{
@@ -1498,7 +1501,7 @@ article .comments{
 
 .logo1 {
   height: 100px;
-  width:13ф0px;
+  width:130px;
   padding-top: 0px;
 }
 
