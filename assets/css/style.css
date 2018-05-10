@@ -968,7 +968,24 @@ nav..bootsnav ul.nav li > a{
 nav.navbar.bootsnav.scroll_menu ul.nav li.active > a{
     background: #fff;
 }
-nav.navbar.bootsnav ul.nav li > a:hover, nav.navbar.bootsnav ul.nav li > a:focus, nav.navbar.bootsnav ul.nav li.active > a {
+nav.navbar.bootsnav ul.nav li > a:hover{
+  color: #3a3a3a !important;
+  background: #1095fa;
+  border: 1px solid #289ffa;
+  } nav.navbar.bootsnav ul.nav li > a:focus, nav.navbar.bootsnav ul.nav li.active > a {
+    color: #3a3a3a !important;
+    background: #1095fa;
+    border: 1px solid #289ffa;
+}
+nav..bootsnav ul.nav li > .dropdown> a{
+    padding: 7px 23px;
+    border: 1px solid transparent;
+    font-weight: normal;
+}
+nav.navbar.bootsnav.scroll_menu ul.nav li.active > .dropdown> a{
+    background: #fff;
+}
+nav.navbar.bootsnav ul.nav li> .dropdown> a:hover, nav.navbar.bootsnav ul.nav li > .dropdown> a:focus, nav.navbar.bootsnav ul.nav li.active > .dropdown> a {
     color: #3a3a3a !important;
     background: #1095fa;
     border: 1px solid #289ffa;
@@ -1510,4 +1527,73 @@ article .comments{
 
   width:50px;
   padding-top: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top:20px;
+
+}
+
+.dropdown-content {
+  margin-top: 22px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -110px;
+
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover {
+    background-color: #3e8e41;
+}
+ .dropdown a{
+    padding: 20px 30px;
+    line-height: 20px;
+    margin-top: 5px;
+    border: 1px solid transparent;
+    font-weight: normal;
+}
+.dropdown{
+    background: #fff;
+}
+.dropdown a {
+    color: #fff !important;
+    background: #1095fa;
+    border: 1px solid #289ffa;
+    text-align: center;
+
+}
+.dropdown .dropdown-content a{
+  padding: 7px 30px;
+  margin:5px 10px;
+}
+.dropdown input{ background-color: transparent;
+  width: 90%;
+     padding: 12px 20px;
+     margin: 6px 10px;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     font-size: 14px;
+}
+.hideButton{
+  display: none;
 }

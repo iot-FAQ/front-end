@@ -6,6 +6,7 @@ body {
     color: #888;
     line-height: 30px;
     text-align: center;
+    heigth:100%;
 }
 
 strong { font-weight: 500; }
@@ -82,7 +83,8 @@ img { max-width: 100%; }
 /***** Top content *****/
 
 .inner-bg {
-    padding: 60px 0 80px 0;
+    heigth:100%;
+    padding: 120px 0 20px 0;
      background: url(../images/1.jpg) no-repeat right top;
    }
 
@@ -115,6 +117,7 @@ img { max-width: 100%; }
 	padding: 0 25px 15px 25px;
 	background: #fff;
 	text-align: left;
+  margin-top: -10%;
 }
 
 .form-top-left {
@@ -206,4 +209,15 @@ footer a:hover, footer a:focus { color: #fff; border-bottom: 1px dotted #fff; }
 
 	h1, h2 { font-size: 32px; }
 
+}
+}
+
+.button{
+  width:100%;
+  padding:10px 23.1vw;
+  width:auto;
+  color: #fff !important;
+  background: #1095fa;
+  border: 1px solid #289ffa;
+  text-align: center;
 }

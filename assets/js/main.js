@@ -1,6 +1,7 @@
 "use strict";
 jQuery(document).ready(function ($) {
 
+  $(".hideButton").fadeOut();
 
 //for Preloader
 
@@ -30,7 +31,7 @@ jQuery(document).ready(function ($) {
     });
 
 //---------------------------------------------
-// Counter 
+// Counter
 //---------------------------------------------
     $('.statistic-counter').counterUp({
         delay: 10,
@@ -62,7 +63,7 @@ jQuery(document).ready(function ($) {
     });
 
 //---------------------------------------------
-// Scroll Up 
+// Scroll Up
 //---------------------------------------------
 
     $('.scrollup').click(function () {
@@ -81,9 +82,11 @@ jQuery(document).ready(function ($) {
 $(document).on("scroll", function () {
     if ($(document).scrollTop() > 0) {
         $("nav").addClass("scroll_menu");
+        $(".hideButton").fadeIn();
     } else {
         $("nav").removeClass("scroll_menu");
+          $(".hideButton").fadeOut();
     }
-});
+}
 
-
+);

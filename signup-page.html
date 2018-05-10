@@ -13,10 +13,21 @@
 
         <!-- CSS -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link src="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/form-elements.css">
         <link rel="stylesheet" href="assets/css/styles-login-page.css">
+
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/fonticons.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/slick-theme.css">
+        <link rel="stylesheet" href="assets/css/bootsnav.css">
+        <link rel="stylesheet" href="assets/css/plugins.css">
+        	<link rel="stylesheet" href="assets/css/style.css">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,7 +44,62 @@
     </head>
 
     <body>
+      <div id="loading">
+         <div id="loading-center">
+            <div id="loading-center-absolute">
+               <div class="object" id="object_one"></div>
+               <div class="object" id="object_two"></div>
+               <div class="object" id="object_three"></div>
+               <div class="object" id="object_four"></div>
+            </div>
+         </div>
+      </div>
 
+      <nav class="navbar navbar-default navbar-fixed white scroll-menu bootsnav navbar-mobile menu-login">
+
+          <div class="hv2-main-menu-bg">
+
+              <div class="container">
+                  <div class="row">
+                      <div class="container">
+                          <div class="row">
+
+                              <!-- Start Header Navigation -->
+                              <div class="navbar-header menu-login">
+                                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                                          <i class="fa fa-bars"></i>
+                                      </button>
+                                  <a class="navbar-brand" href="index.html#brand">
+                                          <img src="assets/images/icon.png" class="logo logo1 logo-display" alt="">
+                                          <img src="assets/images/icon.png" class="logo logo2 logo-scrolled" alt="">
+                                      </a>
+                              </div>
+                              <!-- End Header Navigation -->
+
+                              <!-- Collect the nav links, forms, and other content for toggling -->
+                              <div class="collapse navbar-collapse" id="navbar-menu">
+                                  <ul class="nav navbar-nav navbar-right m-top-20" data-in="fadeIn" data-out="fadeOut">
+
+                                      <li ><a href="index.html#home">Головна</a> </li>
+                                      <li><a href="#about">Про проект</a></li>
+                                      <li><a href="#controller">Про контролер</a></li>
+                                      <li><a href="#pricing">Вартість</a></li>
+                                      <li><a href="#contacts">Контакти</a></li>
+                                      <li class="active"><a href="before-registration.html">Реєстрація</a></li>
+
+                                      <li>  <a  href="login-page.html" > Вхід</a>
+                                      </li>
+
+                                  </ul>
+                              </div>
+                              <!-- /.navbar-collapse h-->
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </nav>
         <!-- Top content -->
         <div class="top-content">
 
@@ -79,7 +145,8 @@
                                  <label class="sr-only" for="form-email">Телефон</label>
                                  <input type="text" name="form-email" placeholder="Телефон" class="form-email form-control" id="form-email">
                                </div>
-				                        <button type="submit" class="btn">Зареєструватися</button>
+                               <a href='user-cabinet.html' class="button">Зареєструватись</a>
+                          </form>
 				                    </form>
 
                           </div>
@@ -104,20 +171,25 @@
 
       </div>
 
-        <!-- Footer -->
-        <footer>
-        	<div class="container">
-        		<div class="row">
 
-
-        	</div>
-        </footer>
 
         <!-- Javascript -->
-        <script src="assets/js/jquery-1.11.1.min.js"></script>
+       <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.backstretch.min.js"></script>
         <script src="assets/js/scripts.js"></script>
+
+
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.js"></script>
+
+        <script src="assets/js/jquery.easing.1.3.js"></script>
+        <script src="https://cdnjs.cl  <div class=" col-md-6 col-sm-3 ">oudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+        <script src="assets/js/bootsnav.js"></script>
+        <script src="assets/js/jquery.formchimp.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script type="text/javascript"></script>
 
         <!--[if lt IE 10]>
             <script src="assets/js/placeholder.js"></script>
